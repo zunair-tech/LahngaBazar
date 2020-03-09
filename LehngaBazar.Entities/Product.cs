@@ -8,6 +8,9 @@ namespace LehngaBazar.Entities
 {
     public class Product : BaseEntity
     {
-        public List<Product> products { get; set; }
+        public decimal Price { get; set; }
+
+        public Category category { get; set; }
+
     }
 }
